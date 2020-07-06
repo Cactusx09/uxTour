@@ -58,10 +58,10 @@ class uxTour {
 			this.highlight.style.padding = this.options.padding + 'px';
 
 			this.tooltip.id = 'uxTooltip';
-			this.tooltip.style.cssText = 'position: absolute; z-index: 999999991; width: 300px; max-width: 100%; padding: 8px; #FFF; opacity: 0; font-size: 16px; left: 50%; ' + this.getPrefix().css + 'transform: translateX(-50%); ' + this.getPrefix().css + 'transition: 0.3s ease;';
+			this.tooltip.style.cssText = 'position: absolute; z-index: 999999991; width: 400px; max-width: 100%; padding: 8px; #FFF; opacity: 0; font-size: 16px; left: 50%; ' + this.getPrefix().css + 'transform: translateX(-50%); ' + this.getPrefix().css + 'transition: 0.3s ease;';
 
 			this.id = 'uxParagraph';
-			this.paragraph.style.cssText = 'color: #FFF;';
+			this.paragraph.style.cssText = 'color: #FFF; margin-bottom: 20px; font-size: 15px;';
 
 			this.gotIt.id = 'uxGotIt';
 			this.gotIt.style.cssText = 'border: none; background: none; color: #FFF; padding: 0; outline: none; font-size: 16px; cursor: pointer;';
